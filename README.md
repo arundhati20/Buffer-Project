@@ -21,6 +21,10 @@ Priority Queue has been implemented for giving the Customers discounts.
 
 
 
+The Customer class has various fields which will store the personal details, preferences and choices of the customer object as follows:  Name, email id, phone- number, no of members (a single person can register for a whole group)
+The various functions of a Customer include- acceptDetails (To accept the personal details), displayBooking (To display the details, also, overloaded to display hotel booking details) and calculate Priority (To allot a numeric value to each customer on the basis of the size of group and membership)
+Registered Users are the customers who have already registered and need not sign up. Any new Customer who has not registered will first be added to the Registered Users list and then can use the functionalities provided to a Customer.
+ 
 
 
 
